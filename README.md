@@ -1,6 +1,8 @@
 # @ailo/typescript-starter
 
-Ailo GraphQL Client library
+Ailo Typescript library repo starter. Clone/fork this to begin a new TS library basing it on this simple starter.
+
+Features: building to js, watch mode, jest tests, prettier, lint staged, husky, etc.
 
 ## Development
 
