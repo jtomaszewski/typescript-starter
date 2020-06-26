@@ -25,7 +25,7 @@
     "version": "standard-version",
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "trash build test",
-    "prepare-release": "run-s reset test version",
+    "prepare-release": "run-s reset lint test version",
     "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('@ailo/typescript-starter must be installed with Yarn: https://yarnpkg.com/')\""
   },
   "husky": {
