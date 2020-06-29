@@ -40,6 +40,5 @@ yarn test:watch # unit tests in watch mode
 ## Releasing
 
 ```sh
-git push
-yarn publish # will automatically ask you about version bump, run tests and build, and push new version to git & npm
+yarn release # will automatically ask you about version bump, run tests and build, and push new version to git & npm
 ```
