@@ -13,7 +13,7 @@ Features:
 To start a new library (`@ailo/new-awesome-library`):
 
 1. `git clone @ailo/typescript-stater ailo-new-awesome-library && cd ailo-new-awesome-library`
-2. Create a `ailohq/ailo-new-awesome-library` repo on GH.
+2. Create a `ailohq/ailo-new-awesome-library` repo on GH. (And add permissions to the `ailohq/core-team`)
 3. `git remote rm origin && git remote add git@github.com:ailohq/ailo-new-awesome-library.git`
 4. Search & replace everywhere in the repo `typescript-starter` to `new-awesome-library`.
 5. Remove existing `src/**` files and add your own ones.
