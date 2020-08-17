@@ -21,7 +21,7 @@ To start a new library (`@ailo/new-awesome-library`):
 7. Remove `@ailo/ailorn` from package.json dependencies. Unless you actually need it. (It's added here just for a purpose of an example.)
 8. Replace this description here with something meaningful. (For example, with description and a usage example of your library.)
 
-**Note: There's no configuration here for CI (GoCD) yet.** Releasing is done manually, and linters/tests/build are on each `git push` / `yarn publish`. (Which should be fine with small, rarely updated libraries I guess.)
+**Note: There's no configuration here for CI (GoCD) yet.** Releasing is done manually, and linters/tests/build are being run during each `git push` / `yarn publish`.
 
 ## Development
 
